@@ -29,6 +29,9 @@ let weather = {
     },
     search: function() {
         this.fetchWeather(document.querySelector(".search-bar").value);
+                document.body.style.backgroundImage =
+            "url('https://source.unsplash.com/1920x1080/?" + "landscape" + "')";
+
     },
 };
 
