@@ -24,11 +24,12 @@ let weather = {
         document.querySelector(".wind").innerText =
             "Wind speed: " + speed + " km/h";
         document.querySelector(".weather").classList.remove("loading");
+                    document.body.style.backgroundImage =
+            "url('https://source.unsplash.com/1920x1080/?" + "landscape" + "')";
     },
     search: function() {
         this.fetchWeather(document.querySelector(".search-bar").value);
-                document.body.style.backgroundImage =
-            "url('https://source.unsplash.com/1920x1080/?" + "landscape" + "')";
+
 
     },
 };
