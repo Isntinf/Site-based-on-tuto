@@ -21,13 +21,18 @@
         </div>
         <div class="weather loading"></div>
         <h2 class="city">Weather in Bogatynia</h2>
-        <h1 class="temp">51°C</h1>
+        <h1 class="temp">21°C</h1>
         <div class="flex">
             <img src="https://openweathermap.org/img/wn/02d.png" alt="" class="icon" />
             <div class="description">Cloudy</div>
         </div>
         <div class="humidity">Humidity: 60%</div>
         <div class="wind">Wind speed: 6.0kmh</div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+        <script src="./index.js"></script>
+        <script>
+            weather.fetchWeather('Bogatynia')
+        </script>
     </div>
 </body>
 
